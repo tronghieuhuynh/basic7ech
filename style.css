@@ -1,0 +1,117 @@
+body{
+    background-color: gray;
+}
+
+table{
+    border-collapse: collapse; 
+    width: auto;
+}
+
+.Register-title, .Login-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+div.Login-box, div.list-app {
+    border: solid gray 1px;
+    text-align: center;
+    width: 25%;
+    border-radius: 5px;
+    margin: 100px auto;
+}
+
+
+div.upload-aplication,div.Register-box{
+    border: solid gray 1px;
+    text-align: center;
+    width: 25%;
+    border-radius: 5px;
+    background-color: white;
+    margin: 100px auto;
+}
+
+#btn{
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+.error {
+    text-align: center;
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+ 
+.success {
+    text-align: center;
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+
+h2, div.admin-title {
+     text-align: center;
+ }
+
+div.upload-aplication {
+    border: solid gray 1px;
+    text-align: center;
+    width: 25%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.image-pdp{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+.image:hover {
+    opacity: 0.3;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
